@@ -1,6 +1,10 @@
 package lab1;
 
-/*this is branch B1 second change*/
+<<<<<<< HEAD
+/*this is branch C4 second change*/
+=======
+/*this is branch C4 second change*/
+>>>>>>> C4
 public class DigraphNode
 {
 	String Words;
