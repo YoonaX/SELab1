@@ -480,6 +480,7 @@ public class Digraph
 			NextNode = NextNode.Next;
 		}
 	}
+	/*four kinds of getting picture*/
 
 	public void picture()
 	{
@@ -551,11 +552,7 @@ public class Digraph
 		}
 
 		gv.addln(gv.end_graph());
-		//System.out.println(gv.getDotSource());
-		/*for(String a : KeyNode)
-		{
-			System.out.print(a+" ");
-		}*/
+
 
 		String type = "png";
 		File out = new File("qjcout." + type);    // Windows

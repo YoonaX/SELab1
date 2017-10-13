@@ -1201,6 +1201,7 @@ public class GUI extends Application {
 		 window.show();
 	 }
 
+	 /*警告*/
 	 public void PromptBuiltFigure()
 	 {
 		 Stage secondWindow = new Stage();
@@ -1251,6 +1252,8 @@ public class GUI extends Application {
          secondWindow.show();
 	 }
 
+	
+	/*随机游走*/
 	 public void StartRandomWalk(BorderPane layout)
 	 {
 		 Input I = new Input();
