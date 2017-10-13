@@ -36,11 +36,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
-<<<<<<< HEAD
-/*this is branch C4 fourth change*/
-=======
-/*this is branch C4 fourth change*/
->>>>>>> C4
+/*this is branch B1 fourth change*/
 /*this is GUI for this project*/
 public class GUI extends Application {
 	class Input
