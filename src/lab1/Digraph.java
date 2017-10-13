@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
-
+/*this is all methods for solve problems*/
 public class Digraph
 {
 	private Vector<DigraphNode> HeadNodeList;
@@ -659,11 +659,6 @@ public class Digraph
 		}
 
 		gv.addln(gv.end_graph());
-		//System.out.println(gv.getDotSource());
-		/**for(String a : KeyNode)
-		{
-			System.out.print(a+" ");
-		}*/
 
 		String type = "png";
 		File out = new File("sjyzout." + type);    // Windows

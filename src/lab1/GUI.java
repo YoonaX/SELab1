@@ -36,7 +36,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
-
+/*this is GUI for this project*/
 public class GUI extends Application {
 	class Input
 	{
