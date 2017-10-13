@@ -1,6 +1,5 @@
 package lab1;
 
-/*Ω·µ„¿‡*/
 public class DigraphNode
 {
 	String Words;
