@@ -1,5 +1,6 @@
 package lab1;
 
+/*this is B2 second change*/
 public class DigraphNode
 {
 	String Words;
