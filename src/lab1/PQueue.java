@@ -1,5 +1,6 @@
 package lab1;
 
+/*change partner's file*/
 import java.util.Vector;
 
 public class PQueue
