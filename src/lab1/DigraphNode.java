@@ -8,6 +8,7 @@ public class DigraphNode
 	int AdjPointNumber;//表示多少个点与表头节点连接
 	boolean flag = false;
 	
+	
 	public DigraphNode()
 	{
 		Next = null;
