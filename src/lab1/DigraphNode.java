@@ -2,7 +2,6 @@ package lab1;
 
 public class DigraphNode
 {	
-
 	String Words;
 	DigraphNode Next;
 	int Weight;
