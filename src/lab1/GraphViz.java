@@ -1,6 +1,7 @@
+
 package lab1;
 
-
+/*this is B2 third change*/
 //GraphViz.java - a simple API to call dot from Java programs
 /*$Id$*/
 /*
@@ -24,7 +25,6 @@ package lab1;
 *                                                                            *
 ******************************************************************************
 */
-
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -286,3 +286,4 @@ this.graph = sb;
 }
 
 } // end of class GraphViz
+

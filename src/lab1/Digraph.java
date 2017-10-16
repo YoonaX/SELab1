@@ -1,4 +1,7 @@
 package lab1;
+
+/*change my file*/
+/*change partner's file*/
 import java.util.Vector;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +13,9 @@ import java.io.FileInputStream;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Comparator;
-//
+
+/*this is B2 first change*/
+/*this is all methods for solve problems*/
 public class Digraph
 {
 	private Vector<DigraphNode> HeadNodeList;
@@ -517,7 +522,7 @@ public class Digraph
 	//	String type = "png";
 	//	String type = "plain";
 		//File out = new File("/out." + type);   // Linux
-		File out = new File("D:\\out." + type);    // Windows
+		File out = new File("out." + type);    // Windows
 		gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
 	}
 
@@ -556,7 +561,7 @@ public class Digraph
 		}*/
 
 		String type = "png";
-		File out = new File("D:\\qjcout." + type);    // Windows
+		File out = new File("qjcout." + type);    // Windows
 		gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
 	}
 
@@ -612,7 +617,7 @@ public class Digraph
 		}*/
 
 		String type = "png";
-		File out = new File("D:\\zdljout." + type);    // Windows
+		File out = new File("zdljout." + type);    // Windows
 		gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
 	}
 
@@ -657,14 +662,9 @@ public class Digraph
 		}
 
 		gv.addln(gv.end_graph());
-		//System.out.println(gv.getDotSource());
-		/**for(String a : KeyNode)
-		{
-			System.out.print(a+" ");
-		}*/
 
 		String type = "png";
-		File out = new File("D:\\sjyzout." + type);    // Windows
+		File out = new File("sjyzout." + type);    // Windows
 		gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
 	}
 
@@ -717,4 +717,3 @@ public class Digraph
 		}
 	}
 }
-
