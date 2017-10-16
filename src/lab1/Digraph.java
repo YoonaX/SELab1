@@ -1,5 +1,4 @@
 package lab1;
-
 import java.util.Vector;
 import java.util.HashMap;
 import java.util.Map;
